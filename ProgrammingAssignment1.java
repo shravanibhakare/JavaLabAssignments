@@ -1,19 +1,22 @@
 class SY2022bit048 {
     public static void main(String[] args) {
+        int count=0;{
         String arr1 = "2022bit048";
         int result1 = getValidRegistrationsCount(arr1);
+        
 
         if (result1 == 1) {
-            System.out.println("Registration number is valid");
+            count=count+1;
         } else {
             System.out.println("Registration number is not valid");
         }
 
         String arr2 = "2022bcs073";
         int result2 = getValidRegistrationsCount(arr2);
+        {
 
         if (result2 == 1) {
-            System.out.println("Registration number is valid");
+            count=count+1;
         } else {
             System.out.println("Registration number is not valid");
         }
@@ -22,7 +25,7 @@ class SY2022bit048 {
         int result3 = getValidRegistrationsCount(arr3);
 
         if (result3 == 1) {
-            System.out.println("Registration number is valid");
+            count=count+1;
         } else {
             System.out.println("Registration number is not valid");
         }
@@ -31,7 +34,7 @@ class SY2022bit048 {
         int result4 = getValidRegistrationsCount(arr4);
 
         if (result4 == 1) {
-            System.out.println("Registration number is valid");
+             count=count+1;
         } else {
             System.out.println("Registration number is not valid");
         }
@@ -40,10 +43,13 @@ class SY2022bit048 {
         int result5 = getValidRegistrationsCount(arr5);
 
         if (result5 == 1) {
-            System.out.println("Registration number is valid");
+            count=count+1;
         } else {
-            System.out.println("Registration number is not valid");
+            System.out.println("Registration number 2022bel027 is not valid");
         }
+            System.out.println(count);
+        }
+    }
     }
 
     static int getValidRegistrationsCount(String arr) {
